@@ -1,0 +1,9 @@
+{
+    "name": "Basic Background",
+    "description": "Basic Background port",
+    "version": "1.",
+    "author": "Doggybootsy#1333",
+    "theme": "theme/import.scss",
+    "splashTheme": "theme/splash.css",
+    "license": "MIT"
+}
