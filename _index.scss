@@ -1,0 +1,64 @@
+:root{
+	--background:url(https://wallpaperforu.com/wp-content/uploads/2020/07/vector-wallpaper-20071218252727-scaled.jpg);
+	--accent-color:rgb(255, 192, 203);
+	// Guilds
+	--guild-transparency:rgba(0,0,0,.75);
+	--guild-folder-transparency:rgba(0,0,0,.3);
+	--guild-guild-transparency:rgba(0,0,0,.6);
+	--guild-powerclock-transparency:rgba(0,0,0,.1);
+	--guild-folder-guild-transparency:rgba(0,0,0,.3);
+	// Channels
+	--channel-transparency:rgba(0,0,0,.65);
+	--channel-channel-transparency:rgba(0,0,0,.05);
+	--channel-toolbar-transparency:rgba(0,0,0,.2);
+	--channel-userbuttons-transparency:rgba(0,0,0,.3);
+	--channel-unread-transparency:rgba(0,0,0,.5);
+	// Chat
+	--chat-transparency:rgba(0,0,0,.6);
+	--chat-code-transparency:rgba(0,0,0,.35);
+	--chat-nowplaying-transparency:rgba(0,0,0,.25);
+	--chat-toolbar-transparency:rgba(0,0,0,.25);
+	--chat-form-transparency:rgba(8, 6, 6, 0.25);
+	--chat-embed-transparency:rgba(8, 6, 6, 0.45);
+	--chat-buttons-transparency:rgba(0, 0, 0, 0.25);
+	// Memberslist
+	--memberslist-transparency:rgba(0,0,0,.35);
+	// Popouts
+	--popouts-transparency:rgba(0,0,0,.65);
+	--popouts-hover-transparency:rgba(0,0,0,.35);
+	--popouts-header-transparency:rgba(0,0,0,.35);
+	--popouts-header-game-transparency:rgba(114,137,218,.35);
+	--popouts-header-spotify-transparency:rgba(29,185,84,.35);
+	--popouts-header-stream-transparency:rgba(89, 54, 149,.35);
+	--popouts-header-xbox-transparency:rgba(16, 124, 16,.35);
+	--popouts-dropdown-transparency:rgba(0,0,0,.75);
+	--popouts-dropdown-search-transparency:rgba(0,0,0,.8);
+	--popouts-dropdown-inbox-transparency:rgba(0,0,0,.7);
+	--popouts-dropdown-inbox-top-transparency:rgba(0,0,0,.75);
+	--popouts-dropdown-inbox-message-transparency:rgba(0,0,0,.3);
+	// Modal
+	--modal-transparency:rgba(0,0,0,.65);
+	--modal-header-transparency:rgba(0,0,0,.55);
+	--modal-header-game-transparency:rgba(114,137,218,.35);
+	--modal-header-spotify-transparency:rgba(29,185,84,.35);
+	--modal-header-stream-transparency:rgba(89, 54, 149,.35);
+	--modal-header-xbox-transparency:rgba(16, 124, 16,.35);
+	--modal-user-bottom-transparency:rgba(0,0,0,.35);
+	--modal-bottom-transparency:rgba(0,0,0,.35);
+	--modal-footer-transparency:rgba(0,0,0,.45);
+	--modal-top-transparency:rgba(0,0,0,.55);
+	// Settings
+	--settings-sideregion-transparency:rgba(0,0,0,.75);
+	--settings-content-transparency:rgba(0,0,0,.6);
+	--settings-content-containers-transparency:rgba(0,0,0,.3);
+	--settings-popped-codemirror-transparency:rgba(0,0,0,.4);
+	// Tooltip
+	--tooltip-transparency:rgba(0,0,0,.8);
+	--tooltip-pointer-transparency:rgba(0,0,0,0);
+	// Emoji
+	--emoji-transparency:rgba(0,0,0,.7);
+	--emoji-top-transparency:rgba(0,0,0,.4);
+	--emoji-left-transparency:rgba(0,0,0,.3);
+	--emoji-bottom-transparency:rgba(0,0,0,.2);
+	--emoji-search-transparency:rgba(0,0,0,.4);
+}
