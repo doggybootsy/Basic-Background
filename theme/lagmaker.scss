@@ -1,0 +1,14 @@
+// Buttons
+.wrapper-2aW0bm{
+		background: var(--chat-buttons-transparency);
+	&::after{
+	content:"";
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	background:var(--background) center/cover no-repeat fixed;
+	z-index:-2;
+	}
+}
