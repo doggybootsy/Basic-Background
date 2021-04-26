@@ -1,10 +1,34 @@
-
-.layers-3iHuyZ>.layer-3QrUeG{
-	background: var(--background);
+.appMount-3lHmkl, body,.app-2rEoOp,.bg-h5JY_x{
+	background: transparent !important;
+}
+html>body.powercord::after{
+	background: var(--background) !important;
 	// useless for now
   	background-position: center; /* Center the image */
   	background-repeat: no-repeat; /* Do not repeat the image */
   	background-size: cover; /* Resize the background image to cover the entire container */
+	position: absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	content: "";
+	z-index: -1;
+}
+html>body.glasscord::after{
+	background: var(--background) !important;
+	// useless for now
+  	background-position: center; /* Center the image */
+  	background-repeat: no-repeat; /* Do not repeat the image */
+  	background-size: cover; /* Resize the background image to cover the entire container */
+	position: absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	content: "";
+	z-index: -1;
+	opacity: var(--background-opacity);
 }
 // Accent color
 :root{
