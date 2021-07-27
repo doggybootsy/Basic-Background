@@ -1,7 +1,9 @@
 .appMount-3lHmkl, body,.app-2rEoOp,.bg-h5JY_x{
 	background: transparent !important;
 }
+
 .layers-3iHuyZ>.layer-3QrUeG::after{
+	filter: blur(var(--background-blur));
 	background: var(--background);
 	content: "";
 	position: absolute;
@@ -17,29 +19,11 @@
 .glasscord .layers-3iHuyZ>.layer-3QrUeG::after{
 	opacity: var(--background-opacity);
 }
-.typeWindows-1za-n7{
-	z-index: 1;
-	&::before{
-		background: var(--win-titlebar-transparency);
-		content: "";
-		position: absolute;
-		height: 23px;
-		width: 100vw;
-		z-index: 1;
-	}
-}
-.typeWindows-1za-n7::before{
-	background: var(--background);
-	content: "";
-	position: absolute;
-	height: 23px;
-	width: 100vw;
-	z-index: -1;
-	top:0;
-	// useless for now
-  	background-position: center; /* Center the image */
-  	background-repeat: no-repeat; /* Do not repeat the image */
-  	background-size: cover; /* Resize the background image to cover the entire container */
+
+.wrapper-3NnKdC.guilds-1SWlCJ {
+	background: var(--channel-transparency);
+	margin-top: 0;
+	padding-top: 4px;
 }
 // Accent color
 :root{
@@ -133,7 +117,7 @@
 	background: var(--guild-transparency);
 }
 .scroller-1Bvpku{
-	background: transparent;
+	background: transparent !important;
 }
 .expandedFolderBackground-1cujaW{
 	background: var(--guild-folder-transparency);
